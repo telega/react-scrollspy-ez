@@ -1,0 +1,8 @@
+{
+  "short_name": "react-scrollspy-ez",
+  "name": "react-scrollspy-ez",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
