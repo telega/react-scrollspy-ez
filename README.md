@@ -4,6 +4,10 @@
 
 [![NPM](https://img.shields.io/npm/v/react-scrollspy-ez.svg)](https://www.npmjs.com/package/react-scrollspy-ez) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## Demo
+
+[here](https://telega.github.io/react-scrollspy-ez/)
+
 ## Install
 
 ```bash
