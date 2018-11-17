@@ -11,6 +11,7 @@ describe("Scrollspy", () => {
   });
 
   it("shallow renders", () => {
-    shallow(<Scrollspy />);
+    const component = shallow(<Scrollspy />);
+    expect(component.find("ul")).toBeTruthy;
   });
 });
