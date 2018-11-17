@@ -28,6 +28,15 @@ class Example extends React.Component {
 }
 ```
 
+### Options
+
+- `ids` - dom `id` of the page element to track
+- `offset` - scroll offset (in pixels), if your page elements have lots of padding. Default is `2`.
+- `itemContainerClassName` - class for the whole scrollspy menu
+- `activeItemClassName` - class for the active menu item
+- `containerElement` - a JSX element for the whole menu (default is `ul`)
+- `itemElement` - a JSX element for each menu item, default is `li`
+
 ## License
 
 MIT © [telega](https://github.com/telega)
