@@ -3,3 +3,40 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.App {
+  width: 100%;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: tomato;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: tomato;
+}
+p {
+  margin: 8px;
+  width: 480px;
+}
+
+.scrollSpyContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 8px;
+}
+
+.spyItemClass {
+  color: tomato;
+}
+.spyItemClass:hover {
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+}

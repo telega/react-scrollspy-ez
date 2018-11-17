@@ -13,15 +13,13 @@ npm install --save react-scrollspy-ez
 ## Usage
 
 ```tsx
-import * as React from 'react'
+import * as React from "react";
 
-import MyComponent from 'react-scrollspy-ez'
+import Scrollspy from "react-scrollspy-ez";
 
 class Example extends React.Component {
-  render () {
-    return (
-      <MyComponent />
-    )
+  render() {
+    return <Scrollspy ids={["one", "two"]} />;
   }
 }
 ```
