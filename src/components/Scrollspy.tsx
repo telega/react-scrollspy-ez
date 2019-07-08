@@ -16,6 +16,7 @@ export interface SpyItem {
  * @interface ScrollspyProps
  * @property {string[]} ids - the dom IDs of the page elements to scroll to
  * @property {number} offset - a number of pixels to offset whether the page element is 'in view'
+ * @property {boolean} includeParentClasses - will pass classes of spied item to the corresponding menu item
  */
 export interface ScrollspyProps {
   ids: string[];
@@ -25,7 +26,7 @@ export interface ScrollspyProps {
   itemClassName?: string;
   containerElement?: JSX.Element;
   itemElement?: JSX.Element;
-  includeParentClasses: boolean;
+  includeParentClasses?: boolean;
 }
 
 export interface ScrollspyState {
