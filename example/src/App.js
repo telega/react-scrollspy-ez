@@ -11,6 +11,7 @@ export default class App extends Component {
           itemContainerClassName="scrollSpyContainer"
           activeItemClassName="active"
           itemClassName="spyItemClass"
+          includeParentClasses="true"
         />
         <h1 id="one">Heading One</h1>
         <p>
@@ -39,7 +40,9 @@ export default class App extends Component {
           elit vel luctus euismod. Vestibulum consequat suscipit viverra. Fusce
           neque diam, tincidunt at enim vitae, egestas commodo magna.
         </p>
-        <h2 id="two">Heading Two</h2>
+        <h2 id="two" class="underline">
+          Heading Two
+        </h2>
         <p>
           Vestibulum consectetur congue vulputate. Donec gravida leo auctor,
           iaculis ante ut, tincidunt metus. Duis aliquet odio vel turpis
@@ -53,7 +56,9 @@ export default class App extends Component {
           ultrices lacus. Curabitur fringilla lectus eget massa vehicula maximus
           vitae quis tellus.
         </p>
-        <h2 id="three">Heading Three</h2>
+        <h2 id="three" class="underline">
+          Heading Three
+        </h2>
         <p>
           Phasellus dignissim, lorem vel cursus luctus, turpis massa
           sollicitudin nisi, eu facilisis tellus nibh eu lacus. Fusce sodales

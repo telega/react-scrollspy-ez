@@ -40,3 +40,7 @@ p {
 .active {
   font-weight: bold;
 }
+
+.underline {
+  text-decoration: underline;
+}

@@ -25,6 +25,7 @@ export interface ScrollspyProps {
   itemClassName?: string;
   containerElement?: JSX.Element;
   itemElement?: JSX.Element;
+  includeParentClasses: boolean;
 }
 
 export interface ScrollspyState {
@@ -46,7 +47,8 @@ export default class Scrollspy extends React.Component<
     offset: 2,
     ids: [],
     containerElement: <ul />,
-    itemElement: <li />
+    itemElement: <li />,
+    includeParentClasses: false
   };
 
   private timer: number;
@@ -112,6 +114,9 @@ export default class Scrollspy extends React.Component<
         ? React.cloneElement(itemElement, {
             key: k,
             className: classnames(
+              this.props.includeParentClasses && item.element.className
+                ? item.element.className
+                : null,
               itemClassName,
               item.inView ? activeItemClassName : null
             ),
